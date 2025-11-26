@@ -1,5 +1,8 @@
 #!/usr/bin/env perl
 
+# script to split up the full bible off project gutenberg into
+# files for each book. kind of a WIP.
+
 open(INFILE, "<", "web.txt");
 
 while(<INFILE>) {
