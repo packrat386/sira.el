@@ -2,7 +2,7 @@
 
 name="sira"
 desc="Utilities for bible passages"
-version="$(date -u +%Y%m%d.%H%M)"
+version="$(date -u +%Y%m%d.%_H%M | sed 's/ //g')"
 
 pkgdir="out/${name}-${version}"
 
